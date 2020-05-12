@@ -188,9 +188,14 @@
 					 "Using Linux as our operating system and after importing SRA data from NCBI and analyzing the quality of the fastq files with FastQC,we used Spades as our Denovo assembler. We did the scaffolding, then and gap filling. Regarding the mapping,we did it using bowtie in order to generate the SNPs and determine any mutations."
 					 
                             ];
+		       var urls = ["https://www.computer.org/csdl/proceedings-article/icpr/2018/08546101/17D45WrVg6x",
+                            "https://arxiv.org/abs/1807.06151",
+                            "https://www.icevirtuallibrary.com/doi/abs/10.1680/jtran.18.00083",
+                            "https://link.springer.com/chapter/10.1007%2F978-3-030-04239-4_19"
+                        ];
                        
-                        var iclass = ["desktop", "desktop", "desktop", "desktop" , "desktop"];
-                        var mulx10 = Array.from(Array(domains.length).keys());
+			var icons = ["desktop", "code", "android", "user", "pencil"];                       
+			var mulx10 = Array.from(Array(domains.length).keys());
                         for (let i = 0; i < domains.length; i++) {
                             var dir = (ids[i] % 2 == 0) ? "Right" : "Left";
                             document.write(
