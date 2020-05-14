@@ -1,8 +1,5 @@
-My Personal website https://zahrael97.github.io/
-For contact : zahra-elhamraoui@um5s.net.ma
-
-
-Hello, my name is __Zahra Elhamraoui__, 22 years old Moroccan girl.
+# Hello,
+my name is __Zahra Elhamraoui__, 22 years old Moroccan girl.
 
 I am an __optimistic__, __super curious__ and __creative person__ who is always ready to reveal challenges and learn new things.
 
@@ -15,4 +12,7 @@ I am a __self-learning artificial intelligence__, so I work on personal projects
 
 I believe a successful person is a __hard-working person__, and we only live once so let's try as much as we can.
 
-Special thanks to https://github.com/MuLx10
+My Personal website https://zahrael97.github.io/
+For contact : zahra-elhamraoui@um5s.net.ma
+
+Special thanks to this repo https://github.com/MuLx10
