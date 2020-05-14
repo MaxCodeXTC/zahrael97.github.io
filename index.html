@@ -280,7 +280,21 @@
 					 "Using EDA(Exploratory data analysis ) on youtube dataset from kaggle"
 					];
                         var icons = ["android", "android", "desktop", "desktop", "desktop", "compass"];
-                       
+                        var mulx10 = Array.from(Array(domains.length).keys());
+                        for (let i = 0; i < domains.length; i++) {
+                            var dir = (ids[i] % 2 == 0) ? "Right" : "Left";
+                            document.write(
+                                '<div class="col-md-12 animate-box" data-animate-effect="fadeIn' + dir + '">\
+                              <a href="' + urls[i] + '" >\
+                                <div class="services color-' + (mulx10[i] + 1) + '">\
+                                  <span class="icon2"><i class="fa fa-' + icons[mulx10[i]] + '"></i></span>\
+                                  <h3>' + domains[i] + '</h3>\
+                                  <p>' + ppDomains[i] + '</p>\
+                                </div>\
+                              </a>\
+                            </div>'
+                            );
+                        }
                     </script>
                 </div>
             </div>
