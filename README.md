@@ -1,4 +1,4 @@
-# Hello,
+# Hello
 my name is __Zahra Elhamraoui__, 22 years old Moroccan girl.
 
 I am an __optimistic__, __super curious__ and __creative person__ who is always ready to reveal challenges and learn new things.
