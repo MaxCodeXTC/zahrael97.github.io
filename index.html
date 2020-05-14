@@ -71,22 +71,7 @@
 			<div class="center">
 				<script type="text/javascript">
 					
-					var urls = ["ml.html", "ml.html", "ml.html", "ml.html", "ml.html"];
-					var ids = [3, 4, 2, 1, 3];
-					for (let i = 0; i < domains.length; i++) {
-						var dir = (ids[i] % 2 == 0) ? "Right" : "Left";
-						document.write(
-						((i % 5 == 0) ? '<div class="row">' : '') +
-							'<div class="col-sm-4 col-xs-4 col-md-4 col-lg-2 animate-box" data-animate-effect="fadeIn' + dir + '">\
-							  <a href="' + urls[i] + '" >\
-								<div class="services color-' + ids[i] + '">\
-								  <span class="icon2"><i class="fa fa-' + icons[i] + '"></i></span>\
-								  <h3>' + domains[i] + '</h3>\
-								</div>\
-							  </a>\
-							</div>'+ ((i % 5 == 4) ? '</div>' : '')
-						);
-					}
+					
 				</script>
 			</div>
         </div>
@@ -205,23 +190,7 @@
 						     "High school degree with honors"];
                                 var iclass = ["pencil", "language", "pencil", "pencil"];
                                 var color = [5, 1, 2];
-                                for (let i = 0; i < AT.length; i++) {
-                                    var dir = (i % 2 == 0) ? "Right" : "Left";
-                                    document.write(
-                                        '<article class="timeline-entry animate-box" data-animate-effect="fadeIn' + dir + '">\
-										<div class="timeline-entry-inner">\
-											<div class="timeline-icon color-' + color[i] + '">\
-												<i class="fa fa-' + iclass[i] + '"></i>\
-											</div>\
-											<div class="timeline-label">\
-												<h2><a href="#">' + AT[i] + '</a> <span>' + timeSpan[i] + '</span></h2>\
-												<p><strong><a href="#">' + internType[i] + '</a></strong>\
-													<br> ' + descriptions[i] + '</p>\
-												<p></p>\
-											</div>\
-										</div>\
-									</article>');
-                                }
+                                
                             </script>
                             <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                                 <div class="timeline-entry-inner">
