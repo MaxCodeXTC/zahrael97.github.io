@@ -138,6 +138,45 @@
 
     <br>
     <br>
+	    <section class="colorlib-skills" data-section="skills">
+        <div class="colorlib-narrow-content">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                    <h2>Skills</h2>
+                    <hr>
+                </div>
+            </div>
+			<div class="container">
+				<p class="col animate-box" data-animate-effect="fadeInLeft"><b></b></p>
+			</div>
+           
+            <div class="container">
+                <div class="row">
+				
+                    <script type="text/javascript">
+                        var skills = ["Arabic", "French", "English", "German"];
+                        var value = [100, 85, 80, 55];
+                        for (let i = 0; i < skills.length; i++) {
+                            var dir = (i % 2 == 0) ? "Right" : "Left";
+                            document.write(
+                                '<div class="col-md-6 animate-box" data-animate-effect="fadeIn' + dir + '">\
+                                  <div class="progress-wrap">\
+                                      <h3>' + skills[i] + '</h3>\
+                                      <div class="progress">\
+                                          <div class="progress-bar color-' + (i + 1) + '" role="progressbar" aria-valuenow="' + value[i] + '" aria-valuemin="0" aria-valuemax="100" style="width:' + value[i] + '%">\
+                                              <span>' + value[i] + '%</span>\
+                                          </div>\
+                                      </div>\
+                                  </div>\
+                              </div>');
+                        }
+                    </script>
+                </div>
+            </div>
+    </section>
+
+    <br>
+    <br>
 
     <section class="colorlib-experience" data-section="experience">
         <div class="colorlib-narrow-content">
@@ -152,13 +191,13 @@
                     <div class="col-md-12">
                         <div class="timeline-centered">
                             <script type="text/javascript">
-                                var timeSpan = ["2018 - present", "2015 - 2018", "2014 - 2015 "];
-                                var AT = ["Faculty of medicine and pharmacy", "Faculty of sciences", "Moulay Driss High School"];
-                                var internType  = ["Master in bio-informatics ( Medical Informatics)",
+                                var timeSpan = ["2018 - present","2018 -2019", "2015 - 2018", "2014 - 2015 "];
+                                var AT = ["Faculty of medicine and pharmacy","Goethe Insitute", "Faculty of sciences", "Moulay Driss High School"];
+                                var internType  = ["Master in bio-informatics ( Medical Informatics)","Learning German Languages A1-B1",
                                     "Bachelor of Applied Mathematics and Informatics",
                                     "High School Experimental sciences specializing in physics"
                                 ];
-				 var descriptions = ["Currently working on COVID-19 detection using Deep Neural Networks and X-ray/CT scann images.",
+				 var descriptions = ["Currently working on COVID-19 detection using Deep Neural Networks and X-ray/CT scann images.","Presential Certification of Levels",
 						     "final project : graph theory & linear operators.",
 						     "High school degree with honors"];
                                 var iclass = ["pencil", "pencil", "pencil"];
